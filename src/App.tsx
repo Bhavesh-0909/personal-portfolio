@@ -1,6 +1,7 @@
 import Profile from "./components/page-section/profile";
 import About from "./components/page-section/about";
 import Skill from "./components/page-section/skill";
+import Project from "./components/page-section/project";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Profile/>
         <About/>
         <Skill/>
+        <Project/>
       </div>
     </div>
   )
