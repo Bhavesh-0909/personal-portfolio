@@ -2,6 +2,9 @@ import Profile from "./components/page-section/profile";
 import About from "./components/page-section/about";
 import Skill from "./components/page-section/skill";
 import Project from "./components/page-section/project";
+import EducationPage from "./components/page-section/education";
+import ContactPage from "./components/page-section/contact";
+import HackathonPage from "./components/page-section/hackathon";
 
 function App() {
 
@@ -12,6 +15,9 @@ function App() {
         <About/>
         <Skill/>
         <Project/>
+        <HackathonPage/>
+        <EducationPage/>
+        <ContactPage/>
       </div>
     </div>
   )

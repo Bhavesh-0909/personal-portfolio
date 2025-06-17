@@ -37,7 +37,7 @@ function Project() {
                 <div className="flex gap-3">
                   {project.github && (
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Button variant="outline" className="rounded-[0.5rem]" size="sm">
+                      <Button variant="outline" className="rounded-[0.5rem] cursor-pointer" size="sm">
                         <Github className="mr-2" />
                         Github
                       </Button>
@@ -45,7 +45,7 @@ function Project() {
                   )}
                   {project.link && (
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <Button variant="outline" size="sm">
+                      <Button variant="outline" className="cursor-pointer" size="sm">
                         <ExternalLink className="mr-2" />
                         Live Demo
                       </Button>
