@@ -13,10 +13,10 @@ function EducationPage() {
                         </div>
 
                         <div className="flex w-full flex-col gap-0.5 flex-wrap">
-                            <h6 className="text-lg font-bold flex justify-between">{edu.name} <span className="text-sm font-semibold text-gray-300">{edu.duration}</span></h6>
-                            <p className="text-xs font-semibold text-gray-300">{edu.affilated}</p>
-                            <p className="text-xs font-semibold text-gray-300">{edu.major}</p>
-                            <p className="text-xs font-semibold text-gray-300">{edu.resultType} : {edu.result}</p>
+                            <h6 className="text-xs md:text-lg font-bold flex justify-between">{edu.name} <span className="text-[8px] md:text-sm font-semibold text-gray-300">{edu.duration}</span></h6>
+                            <p className="text-[8px] md:text-xs font-semibold text-gray-300">{edu.affilated}</p>
+                            <p className="text-[8px] md:text-xs font-semibold text-gray-300">{edu.major}</p>
+                            <p className="text-[8px] md:text-xs font-semibold text-gray-300">{edu.resultType} : {edu.result}</p>
                         </div>
                     </div>
                 )}
