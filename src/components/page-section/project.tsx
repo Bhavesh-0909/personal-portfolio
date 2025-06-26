@@ -30,7 +30,7 @@ function Project() {
                   <p className="text-xs text-gray-400 font-semibold">{project.description}</p>
                   <div className="flex gap-0.5 flex-wrap">
                     {project.tags.map((tag) => (
-                      <Badge key={tag}>{tag}</Badge>
+                      <Badge variant="green" className="h-4 text-[8px] px-1.5" key={tag}>{tag}</Badge>
                     ))}
                   </div>
                 </div>

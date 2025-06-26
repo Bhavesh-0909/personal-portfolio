@@ -7,7 +7,7 @@ function Skill() {
             <div className="space-y-3">
                 <h3 className="text-2xl font-bold">Skills</h3>
                 <div className="flex gap-1.5 flex-wrap">
-                    {skills.map((skill)=> <Badge className="bg-amber-300 text-amber-900">{skill}</Badge>)}
+                    {skills.map((skill)=> <Badge variant="indigo">{skill}</Badge>)}
                 </div>
             </div>
         </div>
