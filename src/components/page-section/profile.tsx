@@ -1,4 +1,4 @@
-import { Github, Linkedin, Download } from 'lucide-react';
+import { Github, Linkedin, Download, Mail } from 'lucide-react';
 function Profile() {
   return (
     <div className='h-full w-full flex justify-center'>
@@ -12,21 +12,22 @@ function Profile() {
             <h3 className='text-sm md:text-lg font-semibold text-gray-500'>Full Stack Web Developer</h3>
             <h3 className='text-sm md:text-lg font-semibold text-gray-500'>📍 Mumbai, India</h3>
             <h3 className='text-xs md:text-lg font-semibold text-gray-500'>Building projects that matter</h3>
+            <div className='flex flex-row items-center justify-start gap-2 mt-2'>
+              <a href='https://www.linkedin.com/in/bhaveshchoudhary/' target='_blank' rel='noopener noreferrer'>
+                <button className='border border-foreground rounded-4xl px-1.5 py-0.5 flex justify-center items-center text-xs gap-0.5'><Download className='h-3 w-3' /> Resume</button>
+              </a>
+              <a href='https://github.com/bhaveshchoudhary' target='_blank' rel='noopener noreferrer'>
+                <button className='bg-gray-800 text-white rounded-full h-6 w-6 flex justify-center items-center text-sm md:text-base'><Github className='h-4 w-4' /></button>
+              </a>
+              <a href='https://www.linkedin.com/in/bhaveshchoudhary/' target='_blank' rel='noopener noreferrer'>
+                <button className='bg-blue-500 text-white rounded-full h-6 w-6 flex justify-center items-center text-sm md:text-base'><Linkedin className='h-4 w-4' /></button>
+              </a>
+              <a href='https://github.com/bhaveshchoudhary' target='_blank' rel='noopener noreferrer'>
+                <button className='bg-gray-800 text-white rounded-full h-6 w-6 flex justify-center items-center text-sm md:text-base'><Mail className='h-4 w-4'/></button>
+              </a>
+            </div>
           </div>
-          <div className='flex flex-row items-center justify-start gap-2 mt-2'>
-            <a href='https://www.linkedin.com/in/bhaveshchoudhary/' target='_blank' rel='noopener noreferrer'>
-              <button className='bg-blue-500 text-white rounded-4xl px-1.5 py-0.5 flex justify-center items-center text-xs gap-0.5'><Download className='h-3 w-3' /> Resume</button>
-            </a>
-            <a href='https://github.com/bhaveshchoudhary' target='_blank' rel='noopener noreferrer'>
-              <button className='bg-gray-800 text-white rounded-full h-6 w-6 flex justify-center items-center text-sm md:text-base'><Github className='h-4 w-4' /></button>
-            </a>
-            <a href='https://www.linkedin.com/in/bhaveshchoudhary/' target='_blank' rel='noopener noreferrer'>
-              <button className='bg-blue-500 text-white rounded-full h-6 w-6 flex justify-center items-center text-sm md:text-base'><Linkedin className='h-4 w-4' /></button>
-            </a>
-            <a href='https://github.com/bhaveshchoudhary' target='_blank' rel='noopener noreferrer'>
-              <button className='bg-gray-800 text-white rounded-full h-6 w-6 flex justify-center items-center text-sm md:text-base'><Github className='h-4 w-4' /></button>
-            </a>
-          </div>
+          
         </div>
       </div>
     </div>
