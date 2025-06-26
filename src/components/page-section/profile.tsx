@@ -6,8 +6,8 @@ function Profile() {
         <div className='flex items-center justify-center'>
           <div className='bg-gray-600 rounded-full h-32 w-32 md:h-40 md:w-40 flex justify-center items-center'>image</div>
         </div>
-        <div className='w-full h-full text-left md:text-left pl-4 md:pl-10 space-y-1.5 md:space-y-3'>
-          <h1 className='text-xl md:text-4xl font-bold'>Bhavesh Choudhary</h1>
+        <div className='w-full h-full text-left md:text-left pl-3 md:pl-10 space-y-1.5 md:space-y-3'>
+          <h1 className='text-lg font-semibold md:text-4xl md:font-bold'>Bhavesh Choudhary</h1>
           <div className="w-full h-full text-left md:text-left space-y-0.5 md:space-y-1">
             <h3 className='text-sm md:text-lg font-semibold text-gray-500'>Full Stack Web Developer</h3>
             <h3 className='text-sm md:text-lg font-semibold text-gray-500'>📍 Mumbai, India</h3>
