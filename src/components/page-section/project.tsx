@@ -12,24 +12,14 @@ function Project() {
         <div className="grid grid-cols-1 gap-5 mt-5 ">
           {projects.map((project) => (
           <div key={project.id} className="h-full w-full flex flex-col md:flex-row gap-2 border rounded-2xl overflow-hidden shadow-md">
-              {/* <img
-                src="https://res.cloudinary.com/dfhbzmhxb/video/upload/v1751115729/e-commerce/rasoi-edited_-_Made_with_Clipchamp_s9rgji.mp4"
+              <img
+                src="https://res.cloudinary.com/dfhbzmhxb/image/upload/v1751116237/gif/fwintcwbxi0fw8ngkjj4.gif"
                 alt={project.title}
                 width={200}
                 height={200}
                 className="w-full aspect-video md:w-[42%] h-full object-cover"
                 loading="lazy"
-              /> */}
-              <video
-                className="w-full aspect-video md:w-[42%] h-full object-cover"
-                autoPlay
-                loop
-                muted
-                playsInline
-                >
-                <source src="https://res.cloudinary.com/dfhbzmhxb/video/upload/v1751115729/e-commerce/rasoi-edited_-_Made_with_Clipchamp_s9rgji.mp4" type="video/mp4" />
-              </video>
-
+              />
               <div className="w-full md:w-3/5 flex flex-col gap-3 justify-between p-2">
                 <div className="w-full h-full flex flex-col justify-center gap-2">
                   <h3 className="text-xl font-bold">{project.title}</h3>
