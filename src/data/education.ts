@@ -1,4 +1,14 @@
-export const education = [
+interface Education {
+    id: number;
+    name: string;
+    affilated: string;
+    major: string;
+    resultType: string;
+    result: string;
+    duration: string;
+}
+
+export const education: Education[] = [
     {
         id: 1,
         name: "Lokamanya Tilak College of Engineering",

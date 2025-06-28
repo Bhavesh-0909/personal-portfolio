@@ -10,12 +10,9 @@ function Project() {
     <div>
       <div className="h-full w-full flex flex-col justify-center gap-3">
         <h3 className="text-2xl font-bold">Projects</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At error deleniti autem, beatae illo officia velit sequi unde quo ratione.
-        </p>
         <div className="grid grid-cols-1 gap-5 mt-5 ">
           {projects.map((project) => (
-            <div key={project.id} className="h-full w-full flex flex-col md:flex-row gap-2 border rounded-2xl overflow-hidden shadow-md">
+          <div key={project.id} className="h-full w-full flex flex-col md:flex-row gap-2 border rounded-2xl overflow-hidden shadow-md">
               <img
                 src={SampleImage}
                 alt={project.title}
