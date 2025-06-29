@@ -13,7 +13,7 @@ function Profile() {
             <h3 className='text-sm md:text-lg font-semibold text-gray-400'>📍 Mumbai, India</h3>
             <h3 className='text-xs md:text-lg font-semibold text-gray-400'>Building projects that matter</h3>
             <div className='flex flex-row items-center justify-start gap-2 mt-2'>
-              <a href='https://drive.google.com/file/d/1bFV46Oy_PuBNPTjLgqiAa1j53eGU3VgG/view?usp=sharing' download target='_blank' rel='noopener noreferrer'>
+              <a href='https://drive.google.com/file/d/1kA-SOHDTnuRUUSbdmIyxxpLhry2jRWqY/view?usp=sharing' download target='_blank' rel='noopener noreferrer'>
                 <button className='border border-foreground rounded-4xl px-1.5 py-0.5 flex justify-center cursor-pointer items-center text-xs gap-0.5'><Download className='h-3 w-3' /> Resume</button>
               </a>
               <a href='https://github.com/Bhavesh-0909' target='_blank' rel='noopener noreferrer'>
