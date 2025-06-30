@@ -6,7 +6,7 @@ function Profile() {
         <div className='flex items-center justify-center'>
           <img className='bg-gray-600 rounded-full h-32 w-32 md:h-40 md:w-40 flex justify-center items-center' src='https://lh3.googleusercontent.com/a/ACg8ocL2ABttjUV437xI3OYH_eLC4NvSM0ug0RsvfioBXNaREgl5UdrO=s346-c-no' alt='Profile Picture' />
         </div>
-        <div className='w-fit h-full text-left md:text-left md:pl-10 space-y-1.5 md:space-y-3'>
+        <div className='w-fit h-full text-left md:text-left pl-3 md:pl-10 space-y-1.5 md:space-y-3'>
           <h1 className='text-lg font-semibold md:text-4xl md:font-bold'>Bhavesh Choudhary</h1>
           <div className="w-full h-full text-left md:text-left space-y-0.5 md:space-y-1">
             <h3 className='text-sm md:text-lg font-semibold text-gray-400'>Full Stack Web Developer</h3>
