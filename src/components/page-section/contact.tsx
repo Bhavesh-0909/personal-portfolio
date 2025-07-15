@@ -14,9 +14,6 @@ function ContactPage() {
     const publicKey: string = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
 
     if (!form.current) return;
-    console.log("serviceID", serviceID);
-    console.log("templateID", templateID);
-    console.log("publicKey", publicKey);
     if (!serviceID || !templateID || !publicKey){
       console.log('env file not found');
       alert("service not working");
@@ -35,6 +32,10 @@ function ContactPage() {
       .then(
         () => {
           console.log('SUCCESS!');
+          alert('Message sent successfully!');
+          if (form.current) {
+            form.current.reset(); // Reset the form after successful submission
+          }
 
         },
         (error: { text: string }) => {
