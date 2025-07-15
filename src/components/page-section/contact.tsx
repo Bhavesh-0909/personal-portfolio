@@ -23,6 +23,7 @@ function ContactPage() {
       .then(
         () => {
           console.log('SUCCESS!');
+          
         },
         (error: { text: string }) => {
           console.log('FAILED...', error.text);
@@ -77,6 +78,7 @@ function ContactPage() {
             </div>
             <button
               type="submit"
+              value="Send"
               className="p-2 bg-indigo-500 rounded-[12px] cursor-pointer"
             >
               Send
