@@ -23,7 +23,7 @@ function ContactPage() {
       .then(
         () => {
           console.log('SUCCESS!');
-          
+
         },
         (error: { text: string }) => {
           console.log('FAILED...', error.text);
@@ -51,7 +51,7 @@ function ContactPage() {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="user_name"
                 placeholder="Name"
                 className="bg-slate-950 w-full py-2 px-2 rounded-[12px]"
                 required
@@ -61,7 +61,7 @@ function ContactPage() {
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="user_email"
                 placeholder="Email"
                 className="bg-slate-950 w-full py-2 px-2 rounded-[12px]"
                 required
