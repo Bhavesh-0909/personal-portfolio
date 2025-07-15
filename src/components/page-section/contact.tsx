@@ -35,7 +35,7 @@ function ContactPage() {
 
         },
         (error: { text: string }) => {
-          console.log('FAILED...', error.message);
+          console.log('FAILED...', error.text);
         }
       );
   };
