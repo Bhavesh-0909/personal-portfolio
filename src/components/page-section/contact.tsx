@@ -9,15 +9,24 @@ function ContactPage() {
   const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    const serviceID : string = process.env.EMAILJS_SERVICE_ID as string;
+    const templateID : string = process.env.EMAILJS_TEMPLATE_ID as string;
+    const publicKey: string = process.env.EMAILJS_PUBLIC_KEY as string;
+
     if (!form.current) return;
+    if (!serviceID && !templateID && !publicKey){
+      console.log('env file not found');
+      alert("service not working");
+      return;
+    }
 
     emailjs
       .sendForm(
-        process.env.EMAILJS_SERVICE_ID as string,
-        process.env.EMAILJS_TEMPLATE_ID as string,
+        serviceID,
+        templateID,
         form.current,
         {
-          publicKey: process.env.EMAILJS_PUBLIC_KEY as string,
+          publicKey: publicKey,
         }
       )
       .then(
@@ -26,7 +35,7 @@ function ContactPage() {
 
         },
         (error: { text: string }) => {
-          console.log('FAILED...', error.text);
+          console.log('FAILED...', error.message);
         }
       );
   };
