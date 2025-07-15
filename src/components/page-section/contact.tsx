@@ -9,10 +9,10 @@ function ContactPage() {
   const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const serviceID : string = process.env.EMAILJS_SERVICE_ID as string;
-    const templateID : string = process.env.EMAILJS_TEMPLATE_ID as string;
-    const publicKey: string = process.env.EMAILJS_PUBLIC_KEY as string;
-
+    const serviceID : string = process.env.REACT_APP_EMAILJS_SERVICE_ID as string;
+    const templateID : string = process.env.REACT_APP_EMAILJS_TEMPLATE_ID as string;
+    const publicKey: string = process.env.REACT_APP_EMAILJS_PUBLIC_KEY as string;
+    
     if (!form.current) return;
     if (!serviceID && !templateID && !publicKey){
       console.log('env file not found');
