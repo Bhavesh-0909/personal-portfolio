@@ -4,7 +4,7 @@ function Profile() {
     <div className='h-full w-full flex justify-center'>
       <div className='h-full w-full flex flex-row items-center justify-evenly gap-0.5'>
         <div className='flex items-center justify-center'>
-          <img className='bg-gray-600 rounded-full h-32 w-32 md:h-40 md:w-40 flex justify-center items-center' src='https://lh3.googleusercontent.com/a/ACg8ocL2ABttjUV437xI3OYH_eLC4NvSM0ug0RsvfioBXNaREgl5UdrO=s346-c-no' alt='Profile Picture' />
+          <img className='bg-gray-600 rounded-full h-32 w-32 md:h-40 md:w-40 flex justify-center items-center' src='/logo.png' alt='Profile Picture' />
         </div>
         <div className='w-fit h-full text-left md:text-left pl-3 md:pl-10 space-y-1.5 md:space-y-3'>
           <h1 className='text-lg font-semibold md:text-4xl md:font-bold'>Bhavesh Choudhary</h1>
