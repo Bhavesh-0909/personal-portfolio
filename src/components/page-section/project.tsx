@@ -17,10 +17,10 @@ function Project() {
                 alt={project.title}
                 width={200}
                 height={200}
-                className="w-full md:w-[42%] h-full object-cover"
+                className="w-full aspect-auto md:w-[42%] h-full object-cover"
                 loading="lazy"
               />
-              <div className="w-full md:w-3/5 flex flex-col gap-3 justify-between p-2">
+              <div className="w-full md:w-3/5 flex flex-col gap-3 justify-between p-3">
                 <div className="w-full h-full flex flex-col gap-2">
                   <h3 className="text-xl font-bold">{project.title}</h3>
                   <p className="text-xs text-gray-400 font-semibold">{project.description}</p>
