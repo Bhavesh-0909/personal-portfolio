@@ -3,6 +3,7 @@ import { Badge } from "../ui/badge";
 import { Github } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ExternalLink } from "lucide-react"
+import { Link } from "react-router-dom";
 
 function Project() {
   return (
@@ -22,7 +23,7 @@ function Project() {
               />
               <div className="w-full md:w-3/5 flex flex-col gap-3 justify-between p-3">
                 <div className="w-full h-full flex flex-col gap-2">
-                  <h3 className="text-xl font-bold">{project.title}</h3>
+                  <h3 className="text-xl font-bold hover:underline underline-offset-2"><Link to={`/projects/${project.id}`}>{project.title}</Link></h3>
                   <p className="text-xs text-gray-400 font-semibold">{project.description}</p>
                   
                 </div>
