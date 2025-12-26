@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Project() {
   return (
     <div>
-      <div className="h-full w-full flex flex-col justify-center gap-3">
+      <div className="h-full w-full flex flex-col justify-center space-y-3">
         <h3 className="text-2xl font-bold">Projects</h3>
         <div className="grid grid-cols-1 gap-5 mt-5 ">
           {projects.map((project) => (
