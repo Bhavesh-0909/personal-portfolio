@@ -47,7 +47,7 @@ function Profile() {
             >
               <button className="border border-foreground rounded-full px-3 py-1.5 text-xs flex items-center gap-1 hover:bg-foreground hover:text-background transition">
                 <Download className="h-3.5 w-3.5" />
-                Resume
+                <p className="hidden md:block">Resume</p>
               </button>
             </a>
 
