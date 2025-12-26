@@ -86,7 +86,7 @@ function Profile() {
               rel="noopener noreferrer"
               className="h-7 w-7 rounded-full bg-white text-white flex items-center justify-center hover:scale-105 transition"
             >
-              <img src={leetcodeIcon} alt="LeetCode" />
+              <img src={leetcodeIcon} alt="LeetCode" className="h-3 w-3"/>
             </a>
           </div>
         </div>
