@@ -15,7 +15,7 @@ function Profile() {
           <img
             src="https://res.cloudinary.com/dfhbzmhxb/image/upload/v1761915852/portfolio/cropped_circle_image_s5dcfk.png"
             alt="Bhavesh Choudhary"
-            className="h-32 w-32 md:h-40 md:w-40 rounded-full object-cover"
+            className="h-27 w-27 md:h-40 md:w-40 rounded-full object-cover"
           />
         </motion.div>
 
@@ -56,9 +56,9 @@ function Profile() {
               href="https://github.com/Bhavesh-0909"
               target="_blank"
               rel="noopener noreferrer"
-              className="h-7 w-7 rounded-full bg-gray-800 text-white flex items-center justify-center hover:scale-105 transition"
+              className="h-6 w-6 md:h-7 md:w-7 rounded-full bg-gray-800 text-white flex items-center justify-center hover:scale-105 transition"
             >
-              <Github className="h-3 w-3" />
+              <Github className="h-3.5 w-3.5" />
             </a>
 
             {/* LinkedIn */}
@@ -66,17 +66,17 @@ function Profile() {
               href="https://www.linkedin.com/in/bhavesh-babulal-choudhary/"
               target="_blank"
               rel="noopener noreferrer"
-              className="h-7 w-7 rounded-full bg-blue-500 text-white flex items-center justify-center hover:scale-105 transition"
+              className="h-6 w-6 md:h-7 md:w-7 rounded-full bg-blue-500 text-white flex items-center justify-center hover:scale-105 transition"
             >
-              <Linkedin className="h-3 w-3" />
+              <Linkedin className="h-3.5 w-3.5" />
             </a>
 
             {/* Email */}
             <a
               href="mailto:bhaveshchoudhary0909@gmail.com"
-              className="h-7 w-7 rounded-full bg-gray-800 text-white flex items-center justify-center hover:scale-105 transition"
+              className="h-6 w-6 md:h-7 md:w-7 rounded-full bg-gray-800 text-white flex items-center justify-center hover:scale-105 transition"
             >
-              <Mail className="h-3 w-3" />
+              <Mail className="h-3.5 w-3.5" />
             </a>
 
             {/* leetcode*/}
@@ -84,9 +84,9 @@ function Profile() {
               href="https://leetcode.com/u/bhaveshchoudhary0909/"
               target="_blank"
               rel="noopener noreferrer"
-              className="h-7 w-7 rounded-full bg-white text-white flex items-center justify-center hover:scale-105 transition"
+              className="h-6 w-6 md:h-7 md:w-7 rounded-full bg-white text-white flex items-center justify-center hover:scale-105 transition"
             >
-              <img src={leetcodeIcon} alt="LeetCode" className="h-3 w-3"/>
+              <img src={leetcodeIcon} alt="LeetCode" className="h-3.5 w-3.5"/>
             </a>
           </div>
         </div>
