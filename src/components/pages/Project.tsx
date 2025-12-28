@@ -103,12 +103,8 @@ function ProjectDetail() {
         </div>
 
         {/* Image */}
-        <img
-          src={project.image}
-          alt={project.title}
-          className="aspect-video w-full rounded-xl border object-cover shadow-sm"
-          loading="eager"
-        />
+        <video src={project.video} autoPlay loop muted playsInline className="pointer-events-none mx-auto h-40 w-full object-cover object-top">
+        </video>
 
         {/* --- MODIFIED SECTION: Single Column Layout --- */}
         <div className="flex flex-col gap-10">
