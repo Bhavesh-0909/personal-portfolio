@@ -2,7 +2,7 @@ export interface Project {
     id: number;
     title: string;
     description: string;
-    image: string;
+    video: string;
     tags: string[];
     github: string;
     link: string;
@@ -30,7 +30,7 @@ Key highlights include:
             "Dynamic project detail pages with routing.",
             "Smooth animations and transitions using Framer Motion."
         ],
-        image: "https://res.cloudinary.com/dfhbzmhxb/image/upload/v1766850376/portfolio/Screenshot_2025-12-27_211506_cwpcdz.png",
+        video: "https://res.cloudinary.com/dfhbzmhxb/video/upload/v1766940240/portfolio/Untitled_video_-_Made_with_Clipchamp_2_segynf.mp4",
         tags: [
             "Vite + React.js",
             "Tailwind CSS",
@@ -61,7 +61,7 @@ Key highlights include:
             "Dynamic project detail pages with routing.",
             "Smooth animations and transitions using Framer Motion."
         ],
-        image: "https://res.cloudinary.com/dfhbzmhxb/image/upload/v1766850376/portfolio/Screenshot_2025-12-27_211506_cwpcdz.png",
+        video: "https://res.cloudinary.com/dfhbzmhxb/video/upload/v1766940240/portfolio/Untitled_video_-_Made_with_Clipchamp_2_segynf.mp4",
         tags: [
             "Vite + React.js",
             "Tailwind CSS",

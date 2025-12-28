@@ -13,14 +13,8 @@ function Project() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5 ma">
           {projects.map((project) => (
           <div key={project.id} className="h-full w-full min-h-[250px] flex flex-col  gap-2 border rounded-2xl overflow-hidden shadow-md">
-              <img
-                src={project.image}
-                alt={project.title}
-                width={200}
-                height={200}
-                className="w-full aspect-auto h-full object-cover"
-                loading="lazy"
-              />
+              <video src={project.video} autoPlay loop muted playsInline className="pointer-events-none mx-auto h-40 w-full object-cover object-top">
+              </video>
               <div className="w-full flex flex-col gap-3 justify-between p-3">
                 <div className="w-full h-full flex flex-col gap-2">
                   <h3 className="text-xl font-bold hover:underline underline-offset-2"><Link to={`/projects/${project.id}`}>{project.title}</Link></h3>
